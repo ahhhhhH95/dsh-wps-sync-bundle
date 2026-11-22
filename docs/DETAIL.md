@@ -1,0 +1,1 @@
+![WPS cloud sync panel](preview.svg)

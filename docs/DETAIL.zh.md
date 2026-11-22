@@ -1,0 +1,1 @@
+![WPS 云盘同步面板](preview.svg)

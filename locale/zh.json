@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "WPS 云盘同步",
+    "description": "把 DSH 会话、定时任务目录和工作区目录镜像到本机 WPS 同步文件夹，便于其他设备通过 WPS 拉取副本。打开“插件”，选择“WPS 云盘同步”，设置同步文件夹；每个会话头部也提供上传与自动上传开关。上传只会在 DSH-Sync 下写入 Markdown 与 JSON 文件，不调用 WPS 接口。自动上传默认开启，停用插件后不再写入。拉取的会话和任务为只读档案，不支持运行时导入；拉取的工作区只能恢复到显式选择的目标文件夹，对已有文件仅跳过或重命名，绝不覆盖。",
+    "detail": "docs/DETAIL.zh.md"
+  },
+  "clientErrors": {
+    "error.network": "无法连接同步服务。若 DSH 刚重启过，Host 端口会变化：请重新打开 dsh web 打印的 URL，或在桌面应用中按 Ctrl+Shift+R 强制刷新。",
+    "error.staleEndpoint": "此地址上的同步服务没有响应。DSH 每次重启都会更换 Host 端口，当前页面很可能已过期：请重新打开 dsh web 打印的 URL，或在桌面应用中按 Ctrl+Shift+R 重新加载当前 bundle。",
+    "error.transport": "没有可用的传输通道。请通过 localhost 打开 DSH 或重新加载页面。"
+  }
+}

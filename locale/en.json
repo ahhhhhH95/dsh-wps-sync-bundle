@@ -1,0 +1,12 @@
+{
+  "meta": {
+    "title": "WPS cloud sync",
+    "description": "Mirrors DSH sessions, the scheduled-task catalog, and workspace folders into a local WPS sync folder so another device can pull copies through WPS. Open Plugins, select WPS cloud sync, then choose the sync folder; each session header also has upload and auto-upload controls. Uploads write Markdown and JSON files under DSH-Sync and never call WPS APIs. Auto-upload is on by default and stops when the bundle is disabled. Pulled sessions and tasks are read-only archives and cannot be imported at runtime; pulled workspaces can be restored only into a target folder you choose, skipping or renaming existing files, never overwriting.",
+    "detail": "docs/DETAIL.md"
+  },
+  "clientErrors": {
+    "error.network": "Could not reach the sync service. If DSH was restarted, the Host port changed: reopen the URL printed by dsh web, or press Ctrl+Shift+R in the desktop app.",
+    "error.staleEndpoint": "The sync service is not answering at this address. DSH uses a new Host port after every restart, so this page is probably stale: reopen the URL printed by dsh web, or press Ctrl+Shift+R in the desktop app to load the current bundle again.",
+    "error.transport": "No transport is available. Open DSH through localhost or reload the page."
+  }
+}

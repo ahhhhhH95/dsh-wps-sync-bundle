@@ -1,0 +1,22 @@
+# dsh-wps-sync — bundle layer.
+#
+# The patch is inserted into the active profile by `dsh plugin add` / the plugin
+# manager. The `config` block mirrors the schema defaults in lib/config.js so a
+# freshly installed bundle behaves exactly like the code's DEFAULTS: no sync
+# root is hard-coded (it is detected at runtime), and auto-sync is on.
+- insert:
+    - id: wps-sync
+      name: dsh-wps-sync-bundle
+      config:
+        syncRootDir: ''
+        autoSync: true
+        excludePatterns:
+          - node_modules
+          - .git
+          - dist
+          - '*.log'
+        maxFileSizeMB: 20
+        workspaceScanIntervalSec: 60
+        taskHistoryLimit: 50
+        debounceMs: 1500
+        deviceName: ''

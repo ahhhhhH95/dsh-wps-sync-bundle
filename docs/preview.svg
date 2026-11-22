@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="640" height="300" viewBox="0 0 640 300" fill="none" role="img" aria-label="WPS cloud sync panel">
+  <rect x="0" y="0" width="640" height="300" rx="16" fill="#f4f7fc"/>
+
+  <rect x="44" y="50" width="204" height="200" rx="12" fill="#ffffff" stroke="#d8e0ee" stroke-width="2"/>
+  <path d="M44 62a12 12 0 0 1 12-12h180a12 12 0 0 1 12 12v18H44z" fill="#eaf0fa"/>
+  <circle cx="62" cy="65" r="4" fill="#c3cfe2"/>
+  <circle cx="76" cy="65" r="4" fill="#c3cfe2"/>
+  <circle cx="90" cy="65" r="4" fill="#c3cfe2"/>
+  <circle cx="222" cy="65" r="10" fill="#2f6feb"/>
+  <path d="M222 70v-9m-4 4 4-4 4 4" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="58" y="90" width="176" height="30" rx="8" fill="#ffffff" stroke="#e3e9f4" stroke-width="1.5"/>
+  <rect x="68" y="101" width="58" height="8" rx="4" fill="#c7d3e6"/>
+  <rect x="188" y="99" width="30" height="14" rx="7" fill="#2f6feb"/>
+  <circle cx="211" cy="106" r="5" fill="#ffffff"/>
+
+  <rect x="58" y="128" width="176" height="30" rx="8" fill="#ffffff" stroke="#e3e9f4" stroke-width="1.5"/>
+  <rect x="68" y="139" width="72" height="8" rx="4" fill="#c7d3e6"/>
+  <rect x="188" y="137" width="30" height="14" rx="7" fill="#2f6feb"/>
+  <circle cx="211" cy="144" r="5" fill="#ffffff"/>
+
+  <rect x="58" y="166" width="176" height="30" rx="8" fill="#ffffff" stroke="#e3e9f4" stroke-width="1.5"/>
+  <rect x="68" y="177" width="46" height="8" rx="4" fill="#c7d3e6"/>
+  <rect x="188" y="175" width="30" height="14" rx="7" fill="#dbe4f2"/>
+  <circle cx="195" cy="182" r="5" fill="#ffffff"/>
+
+  <rect x="58" y="210" width="176" height="22" rx="7" fill="#eef3fb"/>
+  <rect x="68" y="217" width="92" height="8" rx="4" fill="#b9c8de"/>
+
+  <path d="M258 150h34" stroke="#a9b8d0" stroke-width="3" stroke-linecap="round"/>
+  <path d="m286 143 8 7-8 7" stroke="#a9b8d0" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <path d="M310 180c-14 0-25-11-25-24 0-13 10-23 22-24 4-15 18-25 33-25 17 0 31 11 34 27 2-1 4-1 6-1 12 0 22 10 22 22 0 13-10 23-22 23h-70z" fill="#eaf1ff" stroke="#2f6feb" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M357 163v-24m-10 10 10-10 10 10" stroke="#2f6feb" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M341 170h32" stroke="#2f6feb" stroke-width="3" stroke-linecap="round"/>
+
+  <path d="M428 116h36l12 14h76a10 10 0 0 1 10 10v78a10 10 0 0 1-10 10H428a10 10 0 0 1-10-10v-92a10 10 0 0 1 10-10z" fill="#fdfefe" stroke="#d8e0ee" stroke-width="2" stroke-linejoin="round"/>
+  <rect x="442" y="152" width="118" height="12" rx="6" fill="#e6edf8"/>
+  <rect x="442" y="176" width="92" height="12" rx="6" fill="#e6edf8"/>
+  <rect x="442" y="200" width="104" height="12" rx="6" fill="#e6edf8"/>
+
+  <circle cx="566" cy="222" r="21" fill="#2e9e6b"/>
+  <path d="m557 222 6 6 12-13" stroke="#ffffff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
